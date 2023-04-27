@@ -1,3 +1,7 @@
+package chapterThree.pratice;
+
+import java.math.BigDecimal;
+
 public class Account{
 
 private String name;
@@ -20,6 +24,9 @@ return name;
 public double getBalance(){
 return balance;
 }
+
+    public void deposit(BigDecimal valueOf) {
+    }
 }
 
 

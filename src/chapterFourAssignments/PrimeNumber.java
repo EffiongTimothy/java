@@ -8,9 +8,9 @@ public class PrimeNumber {
 
             System.out.println("Enter a  number");
             int userInput = input.nextInt();
-            if( userInput % 2 == 1){
+            if(userInput % 2 == 1){
                 System.out.println(userInput+" is a prime number");}
-            else {
+            else if (userInput % 2 == 0) {
                 System.out.println(userInput+" is not a prime number");
             }
     }

@@ -1,4 +1,6 @@
-package ChapterEight;
+package ChapterEight.Estore;
+
+import ChapterEight.Estore.BillingInformation;
 
 public class Address extends BillingInformation {
     private String cityName;

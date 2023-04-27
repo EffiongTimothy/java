@@ -1,2 +1,5 @@
-package chapterFour;public class Practice {
+package chapterFour;
+
+public class Practice {
+
 }

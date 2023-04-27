@@ -1,4 +1,4 @@
-package ChapterEight;
+package ChapterEight.Estore;
 
 public class Customer extends User {
     private BillingInformation billingInformation;

@@ -1,4 +1,4 @@
-package ChapterEight;
+package ChapterEight.Estore;
 
 public enum CardType {
 MASTERCARD,

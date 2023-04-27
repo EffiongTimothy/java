@@ -4,7 +4,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
 
-public class Example18 {
+public class main {
     public static void main(String[] args) {
         try (
             var fileOutputStream = new FileOutputStream("dog");

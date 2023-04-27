@@ -1,10 +1,9 @@
 package chapter17;
 
 public class Toyota {
-    public void move(CarMethod carMethod){
-        carMethod.move();
+    public String move(CarMethod carMethod){
+       return carMethod.move("camry",2_000_000);
     }
     public void stop(CarMethod carMethod){
-        carMethod.stop();
     }
 }

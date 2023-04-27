@@ -2,7 +2,7 @@ package chapterFour;
 
 import java.util.Scanner;
 
-public class Nokiaafunctions {
+public class NokiaFunctions {
     static void mainMenu(int menu) {
 
         if (menu == 1 )
@@ -26,7 +26,7 @@ public class Nokiaafunctions {
     }
 public static void menu1(int back) {
     System.out.println("""
-                Phone book) 
+                Phone book 
             1.Search
             2.Services Nos.
             3.Add name

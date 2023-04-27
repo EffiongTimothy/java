@@ -1,4 +1,4 @@
-package ChapterEight;
+package ChapterEight.Estore;
 
 public class User {
     private String name;

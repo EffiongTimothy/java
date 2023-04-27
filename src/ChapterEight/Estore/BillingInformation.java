@@ -1,6 +1,6 @@
-package ChapterEight;
+package ChapterEight.Estore;
 
-public class BillingInformation extends Customer{
+public class BillingInformation extends Customer {
     private String recieverName;
     private String recieversPhoneNumber;
     private Address deliveryAddress;

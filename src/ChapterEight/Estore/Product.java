@@ -1,4 +1,4 @@
-package ChapterEight;
+package ChapterEight.Estore;
 
 public class Product extends Items {
     private long productId;

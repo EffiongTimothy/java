@@ -1,9 +1,9 @@
-package tdd;
-public class car {
+package chapterThree.tdd;
+public class Car {
     private String model;
 private String year;
 private double price;
-    public car(String model, String year, double price) {
+    public Car(String model, String year, double price) {
     this.model = model;
     this.year = year;
     this.price = price;
@@ -34,6 +34,14 @@ private double price;
         this.price = price;
 
     }
+public void applyDiscount(int discountRate){
+        double discount = (discountRate/100)*price;
+        price=price-discount;
+
+
+}
+
+
 }
 
 
